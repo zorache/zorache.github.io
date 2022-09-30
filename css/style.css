@@ -1,0 +1,15 @@
+:root {
+
+}
+
+
+.index{
+    position: sticky;
+    top: 130px;
+    height: 500px;
+    width: 100px;
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+}
+
+
