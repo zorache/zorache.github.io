@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Avenir, Arial, sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    /* font-family: 'Avenir', 'Avenir Next', 'Nunito', sans-serif;  */
+    font-weight: 500; /* Set a lighter font weight */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+h4 {
+    font-family: 'Avenir', 'Avenir Next', 'Nunito', sans-serif; 
+    font-weight: 500; /* Set a lighter font weight */
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.lilac-link:link {
+    color: #C8A2C8; /* Shade of lilac */
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+}
+.left-panel {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.right-panel {
+    width: 70%;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+.art-piece {
+    margin-bottom: 20px;
+    display: none;
+}
+.art-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.markdown-text {
+    height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+.art-title {
+    cursor: pointer;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    display: block;
+}
+
+.art-description {
+    height: 100%;
+    overflow-y: auto;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+iframe{ border: none; 
+}

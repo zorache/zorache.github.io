@@ -1,16 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    
-    <meta charset="utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zora che</title>
+    <link rel="stylesheet" href="css/art.css">
+    <style> iframe{ border: none; } </style>
 
-  </head>
-  <body>
-    <main>
-    </main>
-    <script src="js/sketch-browser.js"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>zora che</h2>
+            <h4>visuals</h4>
+            <!-- <div class="art-title" data-piece="1">Piece 1</div> -->
+            <div class="art-title" data-piece="a lot of people">a lot of people</div>
+            <div class="art-title" data-piece="entropy">entropy</div>
+            <div class="art-title" data-piece="oxytocin">oxytocin</div>
+            <h4>words</h4>
+            <div class="art-title" data-piece="oracle in the machine">oracle in the machine</div>
+            <div class="art-title" data-piece="searching for wonderland">searching for wonderland</div>
+
+            <!-- <div class="art-title" data-piece="6">Piece 3</div> -->
+            <h4>tangibles</h4>
+            <div class="art-title" data-piece="packing for an unknown future">packing for an unknown future</div>
+            <div class="art-title" data-piece="cocoon">cocoon</div>
+            <!-- <div class="art-title" data-piece="9">Piece 3</div> -->
+
+            <h4>bytes</h4>
+            <div class="art-title" data-piece="01">01</div>
+            <!-- <div class="art-title" data-piece="02">02</div> -->
+            <h4>research</h4>
+            <div class="art-title" data-piece=".."> <a href="https://zora-che.com">..</a></div>
+
+
+
+
+            <!-- Add more titles as needed -->
+        </div>
+        <div class="right-panel">
+            <div class="art-piece" id="cocoon">
+                <video width="800" height="450" controls>
+                    <source src="assets/art/cocoon.mov" type="video/quicktime" class="art-image">
+                    <!-- Your browser does not support the video tag. -->
+                </video>
+                <div class="art-description">
+                    i giggle a lot in this recording, beware <br>
+                    interactive musical cocoon <br>
+                    built with lev stamblr, hana chitsaz, andy qu<br>
+                    wood, motor, LEDs, curtains, 3D printed and laser cut parts <br>
+                </div>
+            </div>
+
+            <!-- <div class="art-piece" id="01">
+                <iframe src="https://editor.p5js.org/zorache/full/GdR4aGcOM" width="400px" height="400px" frameBorder="0"></iframe>
+            </div> -->
+
+
+
+            <div style="position: relative; left: 20px; top: 100px; width:480px; height:480px;" class="art-piece" id="01">
+                <div style="position: absolute; overflow: hidden; margin-top: 50px; margin-left: 20px;">
+                <iframe src="https://editor.p5js.org/zorache/full/GdR4aGcOM" scrolling="no" style="height: 550px; border: 0px none; width: 550px; margin-top: -50px; ">
+                </iframe>
+                </div>
+            </div>
+
+
+            <div class="art-piece" id="packing for an unknown future">
+                <video width="800" height="450" controls>
+                    <source src="assets/art/packing_for_an_unknown_future.mov" type="video/quicktime" class="art-image">
+                    <!-- Your browser does not support the video tag. -->
+                </video>
+                <div class="art-description">
+                    packing for an unknown future <br>
+                    installation for artist showcase at Gray Area <br>
+                    arduino, wires, foraged and made goods <br>
+                    ---<br>
+
+
+
+                </div>
+                <video width="800" height="450" controls>
+                    <source src="assets/art/packing_for_an_unknown_future_2.mov" type="video/quicktime" class="art-image">
+                    <!-- Your browser does not support the video tag. -->
+                </video>
+
+
+            </div>
+
+
+
+            <div class="art-piece" id="a lot of people">
+                <img src="assets/art/a_lot_of_people.jpg" alt="a lot of people" class="art-image">
+                <!-- <div class="markdown-text" data-markdown-file="piece1.md"></div> -->
+                <div class="art-description">
+                    a lot of people <br>
+                    collaborative mural for Rirkrit Tiravanija: A LOT OF PEOPLE at <a href="https://www.momaps1.org/programs/258-rirkrit-tiravanija">MoMA PS1</a><br>
+                    charcoal on wall
+                </div>
+            </div>
+            <div class="art-piece" id="oxytocin">
+                <img src="assets/art/oxytocin.jpg" alt="oxytocin" class="art-image">
+                <!-- <div class="markdown-text" data-markdown-file="piece1.md"></div> -->
+                <div class="art-description">
+                    oxytocin <br>
+                    oil on wood, 7 panels of 22 x 10 inches<br>
+                    private collection<br>
+                </div>
+            </div>
+            <div class="art-piece" id="entropy">
+                <img src="assets/art/entropy.jpg" alt="entropy" class="art-image">
+                <!-- <div class="markdown-text" data-markdown-file="markdowns/entropy.md"></div> -->
+                <!-- <div class="markdown-text" data-markdown="
+                ## Piece 2
+                
+                This is an *italic* description for Piece 2.
+                
+                1. First item
+                2. Second item
+                
+                > A quote about the artwork
+                                "></div> -->
+                <div class="art-description">
+                    entropy <br>
+                    acrylic on canvas, 72 x 54 inches
+                </div>
+
+
+            </div>
+            <div class="art-piece" id="oracle in the machine">
+                <!-- <img src="path/to/image2.jpg" alt="Piece 2" class="art-image"> -->
+                <div class="art-description">
+                    <h4>oracle in the machine</h4> 
+                    <a href="https://www.kernelmag.io/4/oracles" class="lilac-link">kernel issue 4: LUCK</a> <br> 
+                    written by zora che, edited by kyle barnes, art by tiffany wang
+                    
+                    <br>
+                    ---
+                    <br>
+                    <br>
+                    "Think of the computer, not as a tool, but as a medium."
+                    <br>
+                    <span>&#8212;</span>Brenda Laurel, <i>Computers as Theatre </i>
+                    <br>
+                    <br>
+                    <i>If you are reading this, this is for you.</i>
+                    <br>
+                    <br>
+                    My finger makes gentle contact with the glass matrix, caressing ceramic nano crystals and giving up heat to the obsidian screen. My phone, an inanimate 6 oz. piece of matter (the same weight as a deck of cards), is whispering soft nothings to me.
+                    <br> 
+                    <br>
+                    My face is enveloped by a soft glow as I attentively await my reading. “Tonight,” a smooth voice whispers, “we have the queen of cups... complete unison and harmony with this universe.”
+                    <br>
+                    <br>
+                    I have been keeping quiet about my nighttime divination; private in my own room, yet aware of the publicity of the readings I receive—the videos are filled with strangers’ comments and reactions. The readings are for me, and for an indeterminate number of us. I scroll down the infinitely extending screen to unravel more stories for myself, until my eyes are heavy and I drift off.
+                    <br>
+                    <br>
+                    During the day, I pry open models, reverse-engineering their inner workings and meditate on their societal ramifications. At night, I scry with opaque models, heart yearning for answers, fingers absorbed. I receive group tarot readings on Instagram, from someone with a beaming smile soaked in sun rays. The tellers are charismatic, the readings emphatic. One-in-four young women in the United States uses Co-Star, the AI astrology app―I am one of them. I code models, and I let models recode me.
+                    <br>
+                    ...<a href="https://www.kernelmag.io/4/oracles">[read on kernel]</a>
+                </div>
+                <!-- <div class="markdown-text" data-markdown-file="piece3.md"></div> -->
+            </div>
+            <div class="art-piece" id="searching for wonderland">
+                <!-- <img src="path/to/image2.jpg" alt="Piece 2" class="art-image"> -->
+                <div class="art-description">
+                    <h4>searching for wonderland</h4> 
+                    <!-- <a href="https://www.kernelmag.io/4/oracles" class="lilac-link">kernel issue 4: LUCK</a> <br> 
+                    written by zora che, edited by kyle barnes, art by tiffany wang -->
+                    
+                    <br>
+                    ---
+                    <br>
+                    <br>
+                    There is a special type of guilt. The one that haunts you while you savor something beautiful, because you know that you are an intruder. I felt that guilt when I stepped onto the land of a small fishing town called Burano on an early February morning. The chill Adriatic Sea air brushed against my face. I was wide awake, but the town was deep asleep. 
+                    <br>
+                    <br>
+                    If you search Burano on the Internet, you’d get back results with idyllic colors that jump out to you from every small venetian house. Shades of chirpy apple green, meditative dusty rose, warm burnt sienna, and more rich blocks of colors occupy your vision everywhere you look. As I stood there appreciating the saturated colors against the pale, dreadful Italian winter, I felt both delighted and a little blue.
+                    <br>
+                    <br>
+                    Legends claim that the fishermen painted their houses in vibrant hues in order to find their way home through the heavy fog. This is the story that most tourist websites would tell you. But if there is anything I’ve learned about Burano or the Venetian commune in general, it is that you cannot reduce places into simple postcards.
+                    <br>
+                    <br>
+                    Burano resides 6 kilometers outside of the main Venice island in the Northern Lagoon. On one hand, Burano is big with over fifty square kilometers of total area. But it is also small, with the dryland occupying 1.1% of the area (around half of one square kilometer). The geography of Burano is the key to understand its temperament; It’s a remote town that lives and breathes the lagoon. Originally, the Venice lagoon was a delta region, which was wetland formed through rivers emptying water and depositing sediments when joining into another body of water. After continuous interactions between the Adriatic Sea and the two rivers Sile and Brenta, sediments were redistributed and built up in places where the sea ground was sloped and the water was shallow, thus forming beaches and islands. The dreamy scene of cities on water is a result of centuries of complex human interventions. Since the Roman period, settlers drained areas of the lagoon, diverted water through canals, and maintained the islands. Far from a natural landscape, Venetian islands like Burano are intimately affected by both the dynamic changes in the natural environment and the human engineering designed to combat the transitions. In fact, due to the operations over the last seven centuries, the lagoon has changed drastically: the natural balance of “river delta” and “sea lagoon” matrices are no longer equal, and when rivers meet the ocean, it directly goes into a “morphological substratum” of the sea and the lagoon. Such environmental changes ultimately contribute to many of the issues facing Venetian islands today, such as the high tides that flood islands like Burano.
+                    <br>
+                    <br>
+                    The unique landscape of Venice earned itself the name of “La Serenissima,” the Serene One. I thought Burano could be the most tranquil island of them all. Colorful houses, small boats parked by the riverway, homey trattorias that only open for a few hours each day—life in Burano seemed like a dream. I wasn’t sure where to go after touching down at this little slice of wonderland. After admiring the beauty for a few seconds, I followed the other tourists as we spread into the narrow roads and bridges that link together the dryland like veins.
+                    <br>
+                    <br>
+                    It’s hard not to be intrigued by Burano’s aura of separation, which is deeply ingrained in its history. There is no definite account of how the town was founded, but many claimed that their ancestors sought refuge after abandoning other islands in the lagoon that were eroded by the salt, water, and sun. From fishermen of sinking islands, to nuns seeking political and religious asylum, the island gathered a tough crowd of poors who learned to survive off the lagoon.  Unlike most islands in the Venetian commune, life in Burano was plagued with poverty until the 1950s, and the island was stereotyped as a place of paupers. Even after Venice’s annexation of Burano in 1923, little attention was paid to this small Northern island. The otherworldliness of Burano stems from this isolation, and it charms tourists who wish to peek into an island with long-lasting traditions that are uninfluenced by the modern world.
+                    <br>
+                    <br>
+                    I kept my steps low as I walk past houses with colors of the rainbow. Instead of parking lots for cars, Buranellis have river space for boats. Seeing the nets and the boats, I wondered how hard it is to be independent fishermen in this age. The fish on my dinner table more often than not came from mass farms that even force salmons to eat corn. It turned out that my intuition wasn’t wrong. There were around 400 fishermen when I visited, but in 1980s the number was in the 700s. Externally, Burano’s fishermen are competing with large fishing corporations that benefit from economies of scale. Internally, they also face the issue of an unsustainable local fishing environment. Fishing is heavily impacted by the changing dynamics of the lagoon, especially vulnerable to pollution and climate change. In a 2006 Sustainability Indicators and Environmental Valuation study on fishing prospects of the Venetian lagoon, researchers determined that the ecosystem “has evolved towards a gradual depletion of fish resources” for the entire lagoon, with the Northern Lagoon having the lowest estimated yields. Factors that contribute to the lowering yields include overfishing, fish species’ vulnerability to the rising sea temperature, and the pollution of the Venetian lagoon. Though overfishing can be curbed through regulatory limits, adjusting to the changing climate and repairing the lagoon from pollution is a much more difficult process.  
+                    <br>
+                    <br>
+                    Ironically, Burano had faced significant environmental repercussions from pollution despite being excluded from industrial development in the lagoon. For older Buranellis, the environmental crisis of the summer of 1988 grips the cities’ shared memory. The city was attacked by a swarm of tiny insects, while fish died in large numbers as a result of oxygen level depletion and high sea temperature of around 27-28 degrees Celsius. Burano’s experience with pollution was not a singular incident in the lagoon, but due to Burano’s geological location and its poor infrastructure at the time, the damage done to Burano was among the gravest. Buranellis pushed for environmental protection towards the end of the 20th century as they realized that their livelihood relied on the health of the lagoon. However, there wasn’t a way to mitigate the result of years of pollution immediately. The anthropic activities in the Venice lagoon had caused long-term reduction of fish population and created imbalances in the ecosystem. Such disruptions to the natural environment would only exacerbate further as the climate becomes more extreme if humans continue our pace of greenhouse gas emission.
+                    <br>
+                    <br>
+                    Sadly, the population loss isn’t limited to the fishermen of Burano—the town’s population had shrunk by half compared to the 1980s. As I observed the quiet houses, it was hard to imagine that Burano used to be a popular settlement that was almost overcrowded. Historian and Venetian native Lidia D. Sciama would call the issue that faces historical sites like Burano a dilemma between conservation and change. Civilians were faced with the choice between living in subpar conditions or moving away to pursue a more convenient life. For example, Buranellis grappled with poor housing that could not guard against high tides during the 20th century. Fighting for adequate housing was a major issue that dominated Buranelli politics, and the situation improved as Buranellis pushed Venice to focus more on its periphery towns. However, the tides will continue to pose as a threat to Burano, and the restoration of structures will be costly. Results from a UNESCO report in 2011 notes that the lagoon’s average sea level is estimated to rise by more than 60 cm within this century, which is the same as Burano’s current highest elevation. Building resilient housing for a future with extreme weather and higher sea level for Burano is challenging and uncertain. In a foreseeable future, residents will have to abandon the structures that have existed for centuries in exchange for higher rise buildings or moving away. Tourists won’t be able to visit the 16th century Catholic church anymore, but perhaps one can pray on top of its remnant. 
+                    <br>
+                    <br>
+                    If the diminishing of natural resources and the rising sea level are physical barriers preventing the town’s long-term survival, the destruction of Burano’s urban fabric is devastating its spiritual wellbeing. Burano’s identity as a fishermen’s town would no longer exist as resources continue to deplete under environmental pressure. The once booming lace trade had already sharply declined after facing mass production of lace in other countries. Tourism replaced both industries to be the main economic force of the town, and it changed Burano’s urban fabric and daily life greatly. The number of tourists significantly overshadows the number of locals everywhere I looked. 
+                    <br>
+                    <br>
+                    It was close to midday after I had strolled through the veiny alleys of the town. By the time I returned to the main street, the influx of tourists had consumed the already narrow streets and bridges. I heard loud chatters in different languages, I saw curated outfits, and I encountered sophisticated cameras. The town felt loud and bustling, and I felt hot in the face with shame.
+                    <br>
+                    <br>
+                    Admittedly, I was the other problem for Burano. I was one of these day trippers that not only degraded the urban fabric, but also impacted the island’s environment negatively. The other tourists and I were standing in front of Buranellis’ houses and taking photos with Burano’s colors as background. It was the epitome of modern consumerism. People looking for more interesting sights, more wondrous stories, more physical and mental consumption. People looking for better pictures. This is the same consumerism that is driving up carbon emission levels, which will ultimately result in even more dramatic climate change consequences that undoubtedly will affect places like Burano. Many tourists go on day trips in islands like Burano, contributing little to the local economy but bringing in more noise, crowd, and garbage. The Venetian government essential is bankrupt, and it’s hard to keep up with maintenance as millions of globe trotters mark their spots at Venetian islands. Not to mention the greenhouse gas emission associated with mass tourism which adds up to the climate crisis for island cities. The imbalance between tourists’ contribution to the island and the tourists’ effect on the island drives up living expense of the locals, and the cycle of population loss continues. Burano felt unreal to me. It no longer seemed like a sustainable city in the face of anthropic activities from industrialization to tourism.
+                    <br>
+                    <br>
+                    Tourists can come and go. They can take pictures of beautiful things and take a piece of them with their phones. The locals can’t. The locals breathe the pains of living with a changing climate. Their future is uncertain like the flowing seaweed in the lagoon. It is at the mercy of the changing current.
+                    <br>
+                    <br>
+                    My vaporetto ride back from Burano was quiet as the midday sun glimmers the sea which looked endless. Water was what was here before the humans. It will be what’s here after the humans. Refugee of other islands escaped to Burano, and one day Burano could disappear just like the islands before it. The houses would no longer stay colorful when it’s bathed in saltwater, but perhaps the ecosystem would slowly return back to its equilibrium without the human activities. I was looking for wonderland, but instead I found a city so painfully human that it was suffering from the collective’s drive for development and the individual’s drive for consumption. I like beautiful things still. But I don’t just want to seek out beautiful things, I want to protect them. For places like Burano, perhaps fewer vaporetto and fewer pictures will also be a way to protect them.
+                    <br>
+                    <br>
+
+
+
+
+                    
+                </div>
+                <!-- <div class="markdown-text" data-markdown-file="piece3.md"></div> -->
+            </div>
+
+
+
+
+
+            <!-- </div>
+            <div class="art-piece" id="piece-3">
+                <img src="path/to/image3.jpg" alt="Piece 3">
+            </div>
+            <div class="art-piece" id="piece-1">
+                <img src="path/to/image1.jpg" alt="Piece 1">
+            </div>
+            <div class="art-piece" id="piece-2">
+                <img src="path/to/image2.jpg" alt="Piece 2">
+            </div>
+            <div class="art-piece" id="piece-3">
+                <img src="path/to/image3.jpg" alt="Piece 3">
+            </div> -->
+            <!-- Add more art pieces as needed -->
+        </div>
+    </div>
+
+    <script src="scripts/art.js"></script>
+</body>
 </html>
