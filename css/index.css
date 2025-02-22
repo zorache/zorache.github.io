@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Avenir, Arial, sans-serif;
+    font-size: 15px;
+    background-color: #FDF1F3;
+    /* position: relative;  */
+}
+
+
+
+h2 {
+    /* font-family: 'Avenir', 'Avenir Next', 'Nunito', sans-serif;  */
+    font-weight: 500; /* Set a lighter font weight */
+    margin-bottom: 15px;
+    margin-top: 17px;
+}
+
+h4 {
+    font-family: 'Avenir', 'Avenir Next', 'Nunito', sans-serif; 
+    font-weight: 500; /* Set a lighter font weight */
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.lilac-link:link {
+    color: #C8A2C8; /* Shade of lilac */
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+}
+.left-panel {
+    width: 30%;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.right-panel {
+    width: 70%;
+    overflow-y: scroll;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.art-piece {
+    margin-bottom: 20px;
+    display: none;
+}
+.art-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.markdown-text {
+    height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+a:link {
+    color: rgb(201, 120, 163);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+   color:#7356b5;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.less-bold {
+    font-weight: 500;
+    /* Optionally, you can add opacity for even finer control */
+    opacity: 1;
+}
+
+
+.paper-title {
+    color:#7356b5 ;
+}
+
+.highlight {
+    color:#e34996 ;
+}

@@ -1,287 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zora che</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style> iframe{ border: none; } </style>
 
-<title>Zora Che</title>
-<link rel="stylesheet" href="css/mondrian.css">
- <script src="js/sketch.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> -->
-<style>
-body,h1,h4 {
-  font-family: "Raleway", sans-serif, "Avenir"
-   }
-/* @font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
-} */
-h5{
-  margin:20px;
-  padding:20px;
-  float:left;
-}
-h4{
-  margin:20px;
-  padding:40px;
-  width: 60%;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: lighter;
-  }
-  
-body, html {height: 100%}
-/* .bgimg {
-  background-image: url('/w3images/forestbridge.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-} */
-
-img {
-  float:left;
-  border-radius: 50%;
-  width: 10%;
-  margin:20px;
-  padding:40px;
-}
-@media screen and (max-width:500px) {
-  /* CSS for screens that are 500 pixels or less will be put in this section */
-  img {
-  border-radius: 50%;
-  margin:10px;
-  padding:10px;
-  width: 50%;
-  }
-  h4{
-    width: 80%;
-  }
- 
-}
-
-a:link {
-  color: deeppink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: purple;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.description em {
-  color: purple;
-}
-
-
-.icon-a {
-    background: url("assets/ikigai.png");
-    background-position: center;
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    display: block;
-    /* Other styles here */
-}
-.icon-b {
-    background: url("assets/network.png");
-    background-position: center;
-    background-size: cover;
-    height: 45px;
-    width: 45px;
-    display: block;
-    /* Other styles here */
-}
-
-.icon-c {
-    background: url("assets/tweet.png");
-    background-position: center;
-    background-size: cover;
-    height: 45px;
-    width: 45px;
-    display: block;
-    /* Other styles here */
-}
-.text-clear{
-  clear:left;
-}
-
-
-.less-bold {
-    font-weight: 500;
-    /* Optionally, you can add opacity for even finer control */
-    opacity: 1;
-}
-
-</style>
 <body>
-<div>
-<img src="assets/photo.jpg" alt="Avatar"> 
-<h5>
-<!-- <a href="https://drive.google.com/file/d/1JsRLayFJlNPXNncZM_Cis0orrRZMz3TA/view?usp=sharing"><span class='icon-a'> </span></a>
-<a href="https://www.linkedin.com/in/zche/"><span class='icon-b'></span></a> 
-<a href="https://twitter.com/zorache_"><span class='icon-c'></span></a>   -->
-</h5>
-</div>
-<div>
+    <div class="container">
+        <div class="left-panel">
+            <h2>zora che</h2>
+            <!-- <h4>visuals</h4> -->
+            <div class="art-title"></div>
+            <div class="art-title"></div>
+            <div class="art-title"></div>
+            <div class="art-title"><a href="https://scholar.google.com/citations?user=VGFsjwMAAAAJ&hl=en&oi=ao">✧ google scholar ✧</a></div>
+            <div class="art-title"><a href="https://x.com/zorache_">✧ twitter ✧</a></div>
+            <div class="art-title"><a href="https://zora-che.com/art">✧ portfolio ✧</a></div>
+            <!-- <h4>research</h4> -->
+            <!-- <div class="art-title" data-piece=".."> <a href="https://zora-che.com">..</a></div> -->
+        </div>
+        <div class="right-panel">
+            I'm a researcher, technologist, and artist.
+            <br>
+            <br>
+            I am a PhD student at University of Maryland, and a <a href="https://www.cooperativeai.com/post/announcing-the-2025-cooperative-ai-phd-scholars">Cooperative AI PhD Fellow</a>. 
+            <br>
+            My research on large model safety, technical governance and fairness asks the question of how best to align technology.
+            <br>
+            <br>
+            My art has been exhibited at Chashama Open Studios and Gray Area, and my collaborative mural was on view at MoMA PS1. My writing has appeared in Kernel Magazine. 
+            <br>
+            <br>
+            I graduated from Boston University with a B.A. in Mathematics and a B.A. in Computer Science, summa cum laude. 
+            <br>
 
-<h4 class="text-clear">
-  I'm a second year CS PhD student at University of Maryland, College Park. I'm advised by Professor <a href="http://furong-huang.com/">Furong Huang</a>. 
- 
-  I research large model safety, algorithmic fairness and mechanism design. 
-  <br> 
-  <br> 
-  I studied math and computer science at Boston University, where I got to work with 
-  Professor <a href="https://bryanplummer.com/">Bryan Plummer</a> on misinformation detection 
-  and Professor <a href="https://www.bu.edu/physics/profile/indara-suarez/">Indara Suarez</a> on anomaly detection for the CMS detector at CERN.
+            <br>
+            <br>
 
-  <br> 
-  <br> 
-  I organized for <a href="https://impactlabs.io/">Impact Labs</a>, a nonprofit supporting students to have greater access to opportunities at the intersection of technology and social good. 
+            <h4>Research</h4> 
 
-  <br> 
-  <br> 
-  
-  <br> 
+            <span class="paper-title">Can Watermarking Large Language Models Prevent Copyrighted Text Generation and Hide Training Data?</span> 
+            <br>
+            Panaitescu-Liess, M-A., <span class="less-bold">Che, Z.</span>, An, B., Xu, Y., Pathmanathan, P., Chakraborty, S., Zhu, S., Goldstein, T., Huang, F.          
+            <br>
+            <span style="color:#5a5a5a;">AAAI 2025</span>, <span style="color:#5a5a5a;">AdvML-Frontiers Workshop at NeurIPS 2024</span> <span class="highlight">Best Paper Award</span>
+            <br>
+            <br>
+            <span class="paper-title">Model Tampering Attacks Enable More Rigorous Evaluations of LLM Capabilities</span> 
+            <br> 
+            <!-- <span class="less-bold">Zora Che</span><sup>*</sup>, Stephen Casper<sup>*</sup>, Robert Kirk, Anirudh Satheesh, Stewart Slocum, Lev McKinney, Rohit Gandikota, Aidan Ewart, Domenic Rosati, Zichu Wu, Zikui Cai, Bilai Chughtai, Yarin Gal, Furong Huang, Dylan Hadfield-Menell.  -->
+            <span class="less-bold">Che, Z.,*</span> Casper, S.,* Kirk, R., Satheesh, A., Slocum, S., McKinney, L. E., … & Hadfield-Menell, D.
+            <br>
+            <span style="color:#5a5a5a;">Safe Generative AI Workshop at NeurIPS 2024</span> 
+            <br>
+            <br>
+            <span class="paper-title">EnsemW2S: Can an Ensemble of SoTA LLMs be Leveraged to Obtain a Stronger LLM?</span>
+            <br>
+            Agrawal, A., Ding, M., <span class="less-bold">Che, Z.</span>, Deng, C., Satheesh, A., Langford, J., & Huang, F.
+            <br>
+            <span style="color:#5a5a5a;">Safe Generative AI Workshop at NeurIPS 2024</span>
+            <br>
+            <br>
+            <span class="paper-title">PoisonedParrot: Subtle Data Poisoning Attacks to Elicit Copyright-Infringing Content from Large Language Models</span>
+            <br>
+            Panaitescu-Liess, M-A., Pathmanathan, P., Kaya, Y., <span class="less-bold">Che, Z.</span>, An, B., Zhu, S., Agrawal, A., & Huang, F.
+            <br>
+            <span style="color:#5a5a5a;">Safe Generative AI Workshop at NeurIPS 2024</span>
+            <br>
+            <br>
+            <span class="paper-title">SAIL: Self-improving Efficient Online Alignment of Large Language Models</span>
+            <br>
+            Ding, M., Chakraborty, S., Agrawal, V., <span class="less-bold">Che, Z.</span>, Koppel, A., Wang, M., Bedi, A., & Huang, F.
+            <br>
+            <span style="color:#5a5a5a;">Workshop on Theoretical Foundations of Foundation Models at ICML 2024</span>
+            <a href="https://arxiv.org/abs/2406.15567">[paper]</a>
+            <br>
+            <br>
+            <span class="paper-title">Transferring Fairness under Distribution Shifts via Fair Consistency Regularization</span>
+            <br>
+            An, B., <span class="less-bold">Che, Z.</span>, Ding, M., & Huang, F.
+            <br>
+            <span style="color:#5a5a5a;">NeurIPS 2022</span>, <span style="color:#5a5a5a;">Socially Responsible Machine Learning Workshop at ICLR 2022</span> 
+            <br>
+            <br>
+            <br>
+            <span class="less-bold">Presentation</span>
+            <br>
+            <a href="https://docs.google.com/presentation/d/1nsmUV-0E-IVi6VVmOPwwixk91pznZsHTTIyR_VDwUN0/edit?usp=sharing">"AutoDQM and RPC Monitoring"</a> for the Development for Monitoring the Muon System and ML Applications Segment, CMS Week at CERN, 2020  
+            <br>
+            <br>
+            <br>
+            <span class="less-bold">Art</span>
+            <br>
+            I create with paint, words, code, and hardware. My <a href="https://zora-che.com/art">portfolio</a>.      
+            <br>
+            <br>
+            <br>
+            <br>            
+           <i>My practice has been made possible by the Goldwater scholarship, the New York Times College Scholarship, and the Cooperative AI Foundation.</i>  
+            </div>
 
-  <a href="mailto: zche@umd.edu">[email]</a>    &nbsp;&nbsp;   <a href="https://twitter.com/zorache_">[twitter]</a> &nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=VGFsjwMAAAAJ&hl=en&oi=ao">[google scholar]</a>
-
-  <!-- <br> 
-  Previously I've been a part of NSF REU, BU AIR group, BU LISP group, and program at the University of Maryland with Professor <a href="http://furong-huang.com">Furong Huang</a>. Previously, I was a part of BU <a href="http://cs-people.bu.edu/spchin/">LISP</a>. Previously I've been a part of 
-<a href="https://www.bu.edu/physics/profile/indara-suarez/">BUHEP</a>
- and <a href="https://iris-hep.org/fellows/zche.html">IRIS-HEP</a>.</h4> -->
-</div>
-
-<div>
-
-  <h4 class="text-clear">  
-    <span class="less-bold">Research</span> 
-    <br> 
-    <br> 
-
-    <span class="less-bold" style="color:purple;">Can Watermarking Large Language Models Prevent Copyrighted Text Generation and Hide Training Data?</span> 
-    <br>
-     Michael-Andrei Panaitescu-Liess, <span class="less-bold">Zora Che</span>, Bang An, Yuancheng Xu, Pankayaraj Pathmanathan, Souradip Chakraborty, Sicheng Zhu, Tom Goldstein, Furong Huang.
-     <br>
-     <span class="less-bold" style="color:#5a5a5a;">AAAI 2025</span>
-     <br>
-     <span class="less-bold" style="color:#5a5a5a;">AdvML-Frontiers Workshop at NeurIPS 2024</span> <span class="less-bold" style="color:deeppink;">Best Paper Award</span>
-     <br>
-     <span class="less-bold" style="color:#5a5a5a;"> Workshop on the Next Generation of AI Safety at ICML 2024</span>
-    <br>
-     <br>
-    <span class="less-bold"style="color:purple;">Model Manipulation Attacks Enable More Rigorous Evaluations of LLM Unlearning</span> 
-    <br> 
-    <span class="less-bold">Zora Che</span><sup>*</sup>, Stephen Casper<sup>*</sup>, Anirudh Satheesh, Rohit Gandikota, Domenic Rosati, Stewart Slocum, Lev McKinney, Zichu Wu, Zikui Cai, Bilai Chughtai, Furong Huang, Dylan Hadfield-Menell. 
-    <br> 
-    <span class="less-bold" style="color:#5a5a5a;">Safe Generative AI Workshop at NeurIPS 2024</span>
-    <br>
-    <br>
-    <span class="less-bold" style="color:purple;">EnsemW2S: Can an Ensemble of SoTA LLMs be Leveraged to Obtain a Stronger LLM?</span> 
-    <br>
-    Aakriti Agrawal, Mucong Ding,    <span class="less-bold">Zora Che</span>, Chenghao Deng, Anirudh Satheesh, John Langford, Furong Huang. 
-    <br>
-    <span class="less-bold" style="color:#5a5a5a;">Safe Generative AI Workshop at NeurIPS 2024</span>
-    <br>
-    <br>
-    <span class="less-bold" style="color:purple;">PoisonedParrot: Subtle Data Poisoning Attacks to Elicit Copyright-Infringing Content from Large Language Models</span>
-    <br>
-    Michael-Andrei Panaitescu-Liess, Pankayaraj Pathmanathan, Yigitcan Kaya, <span class="less-bold">Zora Che</span>, Bang An, Sicheng Zhu, Aakriti Agrawal, Furong Huang. 
-    <br>
-    <span class="less-bold" style="color:#5a5a5a;">Safe Generative AI Workshop at NeurIPS 2024</span>
-    <br>
-    <br>
-
-
-     <span class="less-bold" style="color:purple;">SAIL: Self-improving Efficient Online Alignment of Large Language Models</span>
-     <br>
-     Mucong Ding, Souradip Chakraborty, Vibhu Agrawal, <span class="less-bold">Zora Che</span>, Alec Koppel, Mengdi Wang, Amrit Bedi, Furong Huang.  
-     <br>
-     <span class="less-bold" style="color:#5a5a5a;">Workshop on Theoretical Foundations of Foundation Models at ICML 2024</span>
-     <a href="https://arxiv.org/abs/2406.15567">[paper]</a> 
-    <br>
-     <br>
-     <span class="less-bold" style="color:purple;">Transferring Fairness under Distribution Shifts via Fair Consistency Regularization</span>
-     <br>
-     Bang An,  <span class="less-bold">Zora Che</span>, Mucong Ding, Furong Huang. 
-     <br>
-     <span class="less-bold" style="color:#5a5a5a;">NeurIPS 2022</span>
-     <br>
-     <span class="less-bold" style="color:#5a5a5a;">Socially Responsible Machine Learning Workshop at ICLR 2022 </span> <a href="https://openreview.net/pdf?id=zp_Cp38qJE0">[paper]</a> 
-    <br>
-     <br>
-<!--     [2] Bang An, <b>Zora Che</b>, Mucong Ding, Furong Huang. "Transfer Fairness Under Distribution Shifts." Socially Responsible Machine
-    Learning (SRML) at International Conference on Learning (ICLR), 2022. <a href="https://download.huan-zhang.com/events/srml2022/accepted/an22transfer.pdf">[paper]</a> -->
-  </h4>
- 
-
-
-  <h4 class="text-clear">  
-    <span class="less-bold">Presentation</span>
-    <br>
-    <br>
-    <a href="https://docs.google.com/presentation/d/1nsmUV-0E-IVi6VVmOPwwixk91pznZsHTTIyR_VDwUN0/edit?usp=sharing">"AutoDQM and RPC Monitoring"</a> for the Development for Monitoring the Muon System and ML Applications Segment, CMS Week at CERN, 2020  
-  
-  </h4>
- 
-  <h4 class="text-clear">  
-    <span class="less-bold">Other</span>
-    <br>
-    <br>
-   I am a multimedia artist. These days I've been interested in installations and collaborative pieces. <a href="https://zora-che.com/art">[portfolio]</a>
-  
-  </h4>
-
-  <h4 class="text-clear">  
-    <i>I'm grateful to have been supported by the Goldwater scholarship and the New York Times College Scholarship. </i>
-      <!-- <b>Honors</b>
-      <br>
-      <br>
-      Goldwater Scholar - 2021
-      <br>
-      <br>
-      New York Times College Scholar - 2018
-    </h4> -->
-</div>
-
-<link rel="icon" href="assets/ikigai.png" type="image/png" sizes="16x16"> 
- 
-
-
-<!-- easter egg -->
-<div class="entire-div" id="drag">
-  <div class="top-div">
-    <div class="top-right-div"> </div>  
-    
-    <div class="top-left-div"> 
-      <div class="top-left-div-1"></div>
-      <div class="top-left-div-2"></div>
-     
-      
+        </div>
     </div>
 
-    </div>
-    <div class="bottom-div">
-      <div class="bottom-div-1"></div>
-      <div class="bottom-div-2"></div>
-      <div class="bottom-div-3"></div>
-
-    </div>
-</div>
-
-
-
-<div>
-  <h4 class="text-clear">  
- <i>{this site was last watered on oct 17 2024}</i>
-  </h4>
-</div>
-
+    <script src="scripts/art.js"></script>
 </body>
 </html>
