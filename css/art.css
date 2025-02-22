@@ -30,14 +30,17 @@ h4 {
 }
 .left-panel {
     width: 30%;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
     overflow-y: auto;
 }
 .right-panel {
     width: 70%;
     overflow-y: scroll;
-    padding: 20px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
     box-sizing: border-box;
     display: none;
 }
